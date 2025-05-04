@@ -49,9 +49,17 @@ nav a:hover {
   color: #111;
 }
 
+/* Add consistent spacing for all headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  color: #00ff99;  /* Consistent header color */
+  text-shadow: 0 0 10px #00ff99;
+}
+
+/* Consistent intro section styling */
 .intro {
   font-size: 1.1rem;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 section {
@@ -60,7 +68,7 @@ section {
 
 section h2 {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 section p {
